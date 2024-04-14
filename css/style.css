@@ -166,3 +166,56 @@ a {
     background-color: var(--vermelho-link);
     transition: background-color .5s;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__caixa {
+        margin: 10vw;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+
+    .descricao__texto {
+        margin: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 36px;
+    }
+
+    .secundario__imagem {
+        margin: 0;
+    }
+
+    .dispositivos__titulo {
+        font-size: 28px;
+        margin: 1em;
+    }
+
+    .rodape__logo {
+        margin: 0 40vw;
+    }
+}
